@@ -1,4 +1,4 @@
-function App() {
+export default function App() {
   return (
     <div className="p-4 border">
       <h1 className="text-xl font-bold">Hello, this is our project</h1>
@@ -12,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
