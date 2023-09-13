@@ -1,10 +1,8 @@
-import "./App.css";
-
 function App() {
   return (
-    <div>
-      <h1>Hello, this is our project</h1>
-      <ul>
+    <div className="p-4 border">
+      <h1 className="text-xl font-bold">Hello, this is our project</h1>
+      <ul className="list-disc pl-4">
         <li>Kanta Onishi</li>
         <li>Dexter Norris</li>
         <li>Connor Gawley</li>
