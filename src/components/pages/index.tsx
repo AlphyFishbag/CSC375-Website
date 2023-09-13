@@ -1,3 +1,5 @@
+import Link, { Pages } from "../Link";
+
 export default function App() {
   return (
     <div className="p-4 border">
@@ -9,6 +11,7 @@ export default function App() {
         <li>Sarah Suleman</li>
         <li>Emma Martin</li>
       </ul>
+      <Link to={Pages.ABOUT}>About us</Link>
     </div>
   );
 }
